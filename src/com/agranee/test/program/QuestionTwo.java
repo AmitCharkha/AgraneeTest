@@ -52,7 +52,7 @@ public class QuestionTwo {
 	
 	static void printCollectedAmount() {
 		if(smartCoinJarVO.getMoneyCollected() > 0)
-			System.out.println("Total Amount Collected in jar is : " + smartCoinJarVO.getMoneyCollected());
+			System.out.println("Total Amount Collected in jar is : $" + smartCoinJarVO.getMoneyCollected());
 		else
 			System.out.println("Jar is empty");
 	}
